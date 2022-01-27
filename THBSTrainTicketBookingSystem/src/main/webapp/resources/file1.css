@@ -1,0 +1,93 @@
+
+body{
+background-image:url("plat2.jpg");
+background-repeat : no-repeat;
+background-position: center;
+background-attachment:fixed;
+background-size:100%;
+}
+
+
+IMG{
+background-image:url("logo2.png");	
+}
+
+
+
+p.double{
+border-left:8px solid green;
+background-color:lightblue;
+color:black;
+text-decoration:none;
+position:relative;
+border-radius:15px;
+font-family:"Times New Roman",Times,serif;
+font-size:25px;
+border-style:solid;
+}
+
+
+
+.button {
+  border: 3px solid #0080c0;
+  color: #0080c0;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:5px;
+  position: relative;
+  z-index:1;
+}
+
+.button:hover{
+	color:#00ffff;
+	cursor: pointer;
+}
+
+.button:before{
+	transition: 0.5s all ease;
+	position: absolute;
+	top:0;
+	left:50%;
+	right:50%;
+	bottom:0;
+	opacity:0;
+	content:"";
+	background-color:#0080c0;
+}
+
+.button:hover:before{
+	transition: 0.5s all ease;
+	left:0;
+	right:0;
+	opacity:1;
+	z-index:-1;
+	
+}
+
+.header {
+
+   background:#544179;
+   color:#000000;
+  position: absolute;
+  right: 100px;
+  width: 300px;
+  padding: 25px;
+  border-radius:25px;
+}
+
+
+.p{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

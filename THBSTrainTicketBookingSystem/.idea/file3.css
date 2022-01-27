@@ -1,0 +1,37 @@
+body{
+background-image:url("plat.jpg");
+background-repeat : no-repeat;
+background-position: center;
+background-attachment:fixed;
+background-size:100%;
+}
+
+h3{ text-align:center;
+color:#ffffff;
+font-size:25px
+ }
+ 
+ h4{ text-align:center;
+color:#ffffff;
+font-size:20px
+ }
+ body{
+background-image: url("lastpage.jpg");
+
+}
+ 
+ 
+ 
+table{
+ font-family: arial, sans-serif; border-collapse: collapse; width: 50%;
+ margin-right: auto;
+  }
+  #htmlContent
+  { text-align: left;
+  } td, th, button { border: 0px solid #000000;
+  text-align: left; padding: 8px;
+  } button { border: 1px solid black;
+  } tr:nth-child(even) { border: 1px solid #ffffff; background-color: #dddddd;
+  }
+  tr:nth-child(odd)
+  { background-color: #ffffff; }
